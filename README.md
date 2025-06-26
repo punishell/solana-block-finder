@@ -1,5 +1,3 @@
-# solana-block-finder-
-
 # Solana Block Finder
 
 This Rust tool finds the latest Solana block that matches a given timestamp or is right before that timestamp if no exact match exists.
