@@ -50,7 +50,7 @@ Here's a real-world verification using block data from the [Solana Explorer](htt
 
 **Command:**
 ```bash
-./target/release/solana-block-finder 1750921805
+./target/release/solana-block-finder -t 1750921805 -k ...
 ```
 
 **Output:**
