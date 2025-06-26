@@ -26,7 +26,7 @@ cargo build --release
 ## Usage
 
 ```bash
-./target/release/solana-block-finder <timestamp> [api_key]
+./target/release/solana-block-finder -t <timestamp> -k [api_key]
 ```
 
 Parameters:
@@ -35,7 +35,7 @@ Parameters:
 
 ### Basic Example:
 ```bash
-./target/release/solana-block-finder 1650000000
+./target/release/solana-block-finder -t 1650000000 -k API_KEY
 ```
 
 ### Verification Example
